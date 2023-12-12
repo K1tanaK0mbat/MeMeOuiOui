@@ -1,33 +1,35 @@
 
 function NavHeader({ currentPage, handlePageChange }) {
     return (
+        <div>
         <h1> Kitana Kearney </h2>
-      <ul className="nav nav-tabs">
-        <li className="nav-item">
+      <ul >
+        <li>
           <a href="#AboutMe"
             onClick={() => handlePageChange('About Me')}
-            className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}
+            //className={currentPage === 'About Me' ?  : }
           > About Me </a>
         </li>
-        <li className="nav-item">
+        <li>
           <a href="#Portfolio"
             onClick={() => handlePageChange('Portfolio')}
-            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+            //className={currentPage === 'Portfolio' ?  : }
           > Portfolio </a>
         </li>
-        <li className="nav-item">
+        <li>
           <a href="#Resume"
             onClick={() => handlePageChange('Resume')}
-            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+           // className={currentPage === 'Resume' ?  :}
           > Resume </a>
         </li>
-        <li className="nav-item">
+        <li>
           <a href="#contact"
             onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            //className={currentPage === 'Contact' ?  : }
           > Contact </a>
         </li>
       </ul>
+      </div>
     );
   }
   
