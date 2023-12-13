@@ -1,6 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Project = ({ title, imageUrl, projectUrl, repoUrl, description }) => {
+const Project = ({ title, imageUrl, projectUrl, repoUrl, }) => {
   return (
     <figure className="projCard">
       <a href={projectUrl}>
@@ -13,5 +14,11 @@ const Project = ({ title, imageUrl, projectUrl, repoUrl, description }) => {
     </figure>
   );
 };
+Project.propTypes = {
+    title: PropTypes.string.isRequired,
+    imageUrl: PropTypes.string.isRequired,
+    projectUrl: PropTypes.string.isRequired,
+    repoUrl: PropTypes.string.isRequired,
+  };
 
 export default Project;
