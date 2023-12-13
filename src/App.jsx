@@ -1,3 +1,4 @@
+import React from 'react'; // Add import statement for React
 import './App.css';
 import Home from './components/Home';
 
