@@ -4,7 +4,7 @@ import React from 'react';
 
 function NavHeader({ currentPage, handlePageChange }) {
     return (
-        <div>
+        <div className="NavBar">
         <h1> Kitana Kearney </h1>
       <ul >
         <li>

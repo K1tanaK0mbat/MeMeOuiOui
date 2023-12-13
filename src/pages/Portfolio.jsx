@@ -5,7 +5,7 @@ const Portfolio = () => {
   const projects = [
     {
       title: 'Code Chronicles',
-      imageUrl: 'public/assets/Culture_Matrix_Code_corridor1.jpg',
+      imageUrl: '/assets/coding.jpg',
       projectUrl: 'https://codechronicles2.onrender.com/',
       repoUrl: 'https://github.com/Misachka/CodeChronicles.git',
     },
