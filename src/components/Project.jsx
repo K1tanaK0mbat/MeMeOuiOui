@@ -8,8 +8,9 @@ const Project = ({ title, imageUrl, projectUrl, repoUrl, }) => {
         <img src={imageUrl} alt={title} />
       </a>
       <div className="projMini">
-        <h2>{title}</h2>
-        <a href={repoUrl}>Github Repo</a>
+        <h2>{title}</h2><div >
+        <a href={repoUrl} >Github Repo</a>
+      </div>
       </div>
     </figure>
   );
