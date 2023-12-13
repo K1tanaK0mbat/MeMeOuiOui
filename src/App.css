@@ -22,6 +22,14 @@ header {
     font-weight: bold;
   }
 
+  #footer li
+{
+   padding-left:50px;
+
+}
+
+
+
 /* .projCard {
  
 }
@@ -47,4 +55,4 @@ header {
 
 #bigPic img { */
 
-}
+
