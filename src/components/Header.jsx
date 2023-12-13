@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
+
 
 function NavHeader({ currentPage, handlePageChange }) {
     return (
@@ -33,5 +35,6 @@ function NavHeader({ currentPage, handlePageChange }) {
       </div>
     );
   }
+  
   
   export default NavHeader;
