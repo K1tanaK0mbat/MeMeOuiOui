@@ -6,6 +6,8 @@ import Portfolio from '../pages/Portfolio';
 import Contact from '../pages/Contact';
 import Footer from './Footer'; 
 
+import React from 'react';
+
 export default function Home() {
   const [currentPage, setCurrentPage] = useState('About Me');
 
