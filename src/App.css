@@ -1,4 +1,36 @@
-.projCard {
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+    z-index: 1000; 
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px; 
+  }
+
+  li {
+    display: inline;
+  }
+
+  .active {
+    color: #007bff;
+    font-weight: bold;
+  }
+
+  #footer li
+{
+   padding-left:50px;
+
+}
+
+
+
+/* .projCard {
  
 }
 
@@ -21,8 +53,6 @@
    
 }
 
-#bigPic img {
+#bigPic img { */
 
 
-
-}
