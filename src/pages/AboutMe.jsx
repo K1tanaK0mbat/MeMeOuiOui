@@ -4,7 +4,7 @@ import React from 'react';
 export default function About () {
     return (
 <section>
-    <img src="src\assets\Screenshot_20230306_181508_Chrome.jpg"/>
+    <img src="\assets\Screenshot_20230306_181508_Chrome.jpg"/>
    <h1>About Me</h1> 
    <p>My name is Kitana-Woodley Kearney and I reside in Newark,NJ. I am currently a x-ray licensed Dental Assistant at Lotus Smiles, Jersey City, NJ 
     where i perform chairsie assistance, sterilization/disinfection, and taking oral radiographs. 
