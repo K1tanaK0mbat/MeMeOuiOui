@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import NavHeader from './Header'; 
 import AboutMe from '../pages/AboutMe';
 import Resume from '../pages/Resume';

@@ -2,7 +2,7 @@
 function NavHeader({ currentPage, handlePageChange }) {
     return (
         <div>
-        <h1> Kitana Kearney </h2>
+        <h1> Kitana Kearney </h1>
       <ul >
         <li>
           <a href="#AboutMe"
